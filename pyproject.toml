@@ -1,0 +1,18 @@
+[project]
+name = "vidoemodel"
+version = "0.1.0"
+description = "Recognize gym exercises in video: frozen DINOv2 vs VideoMAE vs fine-tuned VideoMAE, with leak-free splits"
+authors = [
+    { name = "solodkind74", email = "solodkind@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "kagglehub>=1.0.2",
+    "numpy>=2.5.4",
+    "opencv-python>=5.0.0.93",
+    "scipy>=1.18.1",
+    "torch>=2.14.1",
+    "torchvision>=0.29.1",
+    "tqdm>=4.70.1",
+    "transformers>=5.19.0",
+]
